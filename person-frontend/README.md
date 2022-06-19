@@ -1,4 +1,4 @@
-# note-frontend
+# person-frontend
 
 ## Project setup
 ```

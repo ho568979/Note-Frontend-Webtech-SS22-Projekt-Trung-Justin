@@ -1,10 +1,17 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <navbar-item></navbar-item>
   <router-view/>
 </template>
+
+<script>
+// eslint-disable-next-line
+import NavbarItem from './components/Navbar'
+
+export default {
+  name: 'App',
+  components: { NavbarItem }
+}
+</script>
 
 <style>
 #app {
