@@ -5,7 +5,6 @@
     <div class="content">
       <h1>Dein Online-Notizblock</h1>
       <p>Alle deine Notizen an einem Platz</p>
-      <router-link class="btn" to="/account"><i class="fas fa-chevron-right"></i>Anmelden</router-link>
     </div>
   </body>
 </template>
