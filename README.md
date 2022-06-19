@@ -1,4 +1,5 @@
-# person-frontend
+[![CI](https://github.com/ho568979/Note-Frontend-Webtech-SS22-Projekt-Trung-Justin/actions/workflows/ci.yml/badge.svg)](https://github.com/ho568979/Note-Frontend-Webtech-SS22-Projekt-Trung-Justin/actions/workflows/ci.yml)
+# note-frontend
 
 ## Project setup
 ```
