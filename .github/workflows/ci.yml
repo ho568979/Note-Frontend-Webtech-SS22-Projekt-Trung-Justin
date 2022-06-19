@@ -12,8 +12,7 @@ jobs:
         with:
           node-version: 18.2.0
       - name: Install dependencies
-        run: |
-          npm install 
+        run:
           npm ci
       - name: Run tests
         run: npm run test:unit
