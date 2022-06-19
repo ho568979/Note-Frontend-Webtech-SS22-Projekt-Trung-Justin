@@ -13,13 +13,7 @@ jobs:
           node-version: 18.2.0
       - name: Install dependencies
         run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
+          npm install 
           npm ci
-          else
-          npm i
-          fi
-#       https://stackoverflow.com/questions/69984660/npm-ci-can-only-install-packages-with-an-existing-package-lock-json-or-npm-shrin
       - name: Run tests
         run: npm run test:unit
